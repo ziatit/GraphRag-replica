@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+networkx
+leidenalg
+igraph
+numpy
+scipy
+pandas
+openai
+python-dotenv
+tiktoken
+pydantic
+pydantic-settings
