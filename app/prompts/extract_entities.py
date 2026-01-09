@@ -34,6 +34,7 @@ IMPORTANT:
 - Do NOT include comments (like // or #) in the JSON output.
 - Do NOT use trailing commas.
 - Ensure all keys and string values are enclosed in double quotes.
+- Do NOT repeat the input text in your response. Only output the JSON.
 
 -Examples-
 ######################

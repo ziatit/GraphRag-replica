@@ -19,5 +19,4 @@ env/
 data/*
 !data/.gitkeep
 index_storage/
-output/*
 !output/.gitkeep

@@ -1,0 +1,334 @@
+[
+  {
+    "chunk_id": 0,
+    "status": "success",
+    "data": {
+      "entities": [
+        {
+          "name": "John Watson",
+          "type": "PERSON",
+          "description": "The narrator, a doctor who served in the British army during the Second Afghan War, injured at Maiwand, and now seeking lodging in London."
+        },
+        {
+          "name": "Murray",
+          "type": "PERSON",
+          "description": "Watson's orderly who saved him from the Ghazis at Maiwand by bringing him to safety."
+        },
+        {
+          "name": "Stamford",
+          "type": "PERSON",
+          "description": "A former dresser under Watson at Barts, now a friend who introduces him to Sherlock Holmes."
+        },
+        {
+          "name": "Sherlock Holmes",
+          "type": "PERSON",
+          "description": "A fellow working at the chemical laboratory at the hospital, seeking someone to share rooms with."
+        },
+        {
+          "name": "University of London",
+          "type": "ORGANIZATION",
+          "description": "The university where Watson earned his Doctor of Medicine degree in 1878."
+        },
+        {
+          "name": "Netley",
+          "type": "LOCATION",
+          "description": "The location where Watson underwent training for army surgeons."
+        },
+        {
+          "name": "Fifth Northumberland Fusiliers",
+          "type": "ORGANIZATION",
+          "description": "The British army regiment Watson was initially attached to as Assistant Surgeon."
+        },
+        {
+          "name": "India",
+          "type": "LOCATION",
+          "description": "The country where Watson's regiment was stationed during the Second Afghan War."
+        },
+        {
+          "name": "Bombay",
+          "type": "LOCATION",
+          "description": "The Indian city where Watson landed after traveling from England."
+        },
+        {
+          "name": "Candahar",
+          "type": "LOCATION",
+          "description": "The city in Afghanistan where Watson found his regiment during the war."
+        },
+        {
+          "name": "Berkshires",
+          "type": "ORGANIZATION",
+          "description": "The British army regiment Watson was attached to after being removed from his brigade, served at Maiwand."
+        },
+        {
+          "name": "Maiwand",
+          "type": "LOCATION",
+          "description": "The location of the fatal battle where Watson was injured by a Jezail bullet."
+        },
+        {
+          "name": "Ghazis",
+          "type": "ORGANIZATION",
+          "description": "Enemy forces during the Second Afghan War who threatened Watson after his injury."
+        },
+        {
+          "name": "Peshawar",
+          "type": "LOCATION",
+          "description": "The location of the base hospital where Watson was treated after his injury."
+        },
+        {
+          "name": "Portsmouth jetty",
+          "type": "LOCATION",
+          "description": "The jetty in Portsmouth where Watson landed upon returning to England."
+        },
+        {
+          "name": "London",
+          "type": "LOCATION",
+          "description": "The city where Watson stays after returning from India, seeking lodging."
+        },
+        {
+          "name": "Strand",
+          "type": "LOCATION",
+          "description": "The street in London where Watson stayed at a private hotel."
+        },
+        {
+          "name": "Criterion Bar",
+          "type": "LOCATION",
+          "description": "The bar in London where Watson meets Stamford."
+        },
+        {
+          "name": "Barts",
+          "type": "ORGANIZATION",
+          "description": "St. Bartholomew's Hospital, where Stamford worked as a dresser under Watson."
+        },
+        {
+          "name": "Holborn",
+          "type": "LOCATION",
+          "description": "The location where Watson and Stamford have lunch together."
+        },
+        {
+          "name": "Chemical Laboratory",
+          "type": "LOCATION",
+          "description": "The laboratory at the hospital where Sherlock Holmes works."
+        },
+        {
+          "name": "1878",
+          "type": "TIME",
+          "description": "The year Watson obtained his medical degree from the University of London."
+        },
+        {
+          "name": "Second Afghan War",
+          "type": "TIME",
+          "description": "The war during which Watson served in the British army, leading to his injury."
+        }
+      ],
+      "relationships": [
+        {
+          "source": "John Watson",
+          "target": "University of London",
+          "relationship_type": "GRADUATED_FROM",
+          "description": "Watson earned his Doctor of Medicine degree from the University of London in 1878.",
+          "strength": 6
+        },
+        {
+          "source": "John Watson",
+          "target": "Netley",
+          "relationship_type": "TRAINED_AT",
+          "description": "Watson underwent the prescribed course for army surgeons at Netley.",
+          "strength": 4
+        },
+        {
+          "source": "John Watson",
+          "target": "Fifth Northumberland Fusiliers",
+          "relationship_type": "ATTACHED_TO",
+          "description": "Watson was attached to the Fifth Northumberland Fusiliers as Assistant Surgeon.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "India",
+          "relationship_type": "STATIONED_IN",
+          "description": "Watson's regiment was stationed in India during the Second Afghan War.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Second Afghan War",
+          "relationship_type": "PARTICIPATED_IN",
+          "description": "Watson served in the Second Afghan War, which led to his injury.",
+          "strength": 7
+        },
+        {
+          "source": "John Watson",
+          "target": "Bombay",
+          "relationship_type": "LANDED_AT",
+          "description": "Watson landed at Bombay after traveling to India.",
+          "strength": 3
+        },
+        {
+          "source": "John Watson",
+          "target": "Candahar",
+          "relationship_type": "REACHED",
+          "description": "Watson reached Candahar safely and found his regiment.",
+          "strength": 4
+        },
+        {
+          "source": "John Watson",
+          "target": "Berkshires",
+          "relationship_type": "SERVED_WITH",
+          "description": "Watson was attached to the Berkshires and served with them at Maiwand.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Maiwand",
+          "relationship_type": "INJURED_AT",
+          "description": "Watson was struck by a Jezail bullet at the battle of Maiwand.",
+          "strength": 8
+        },
+        {
+          "source": "John Watson",
+          "target": "Murray",
+          "relationship_type": "SAVED_BY",
+          "description": "Murray saved Watson from the Ghazis by bringing him to the British lines.",
+          "strength": 7
+        },
+        {
+          "source": "John Watson",
+          "target": "Ghazis",
+          "relationship_type": "THREATENED_BY",
+          "description": "Watson was threatened by the murderous Ghazis after his injury.",
+          "strength": 6
+        },
+        {
+          "source": "John Watson",
+          "target": "Peshawar",
+          "relationship_type": "TREATED_AT",
+          "description": "Watson was treated at the base hospital in Peshawar after his injury.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Portsmouth jetty",
+          "relationship_type": "RETURNED_TO",
+          "description": "Watson landed at Portsmouth jetty upon returning to England from India.",
+          "strength": 4
+        },
+        {
+          "source": "John Watson",
+          "target": "London",
+          "relationship_type": "STAYS_IN",
+          "description": "Watson stays in London after returning to England, seeking lodging.",
+          "strength": 9
+        },
+        {
+          "source": "John Watson",
+          "target": "Strand",
+          "relationship_type": "LODGED_AT",
+          "description": "Watson stayed at a private hotel in the Strand in London.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Criterion Bar",
+          "relationship_type": "MEETS_AT",
+          "description": "Watson meets Stamford at the Criterion Bar in London.",
+          "strength": 6
+        },
+        {
+          "source": "John Watson",
+          "target": "Stamford",
+          "relationship_type": "MEETS",
+          "description": "Watson meets Stamford, a former acquaintance, in London.",
+          "strength": 7
+        },
+        {
+          "source": "Stamford",
+          "target": "Barts",
+          "relationship_type": "WORKED_AT",
+          "description": "Stamford worked as a dresser at Barts under Watson.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Barts",
+          "relationship_type": "WORKED_AT",
+          "description": "Watson worked at Barts, where Stamford was his dresser.",
+          "strength": 5
+        },
+        {
+          "source": "John Watson",
+          "target": "Holborn",
+          "relationship_type": "DINES_AT",
+          "description": "Watson invites Stamford to lunch at the Holborn.",
+          "strength": 4
+        },
+        {
+          "source": "Stamford",
+          "target": "Sherlock Holmes",
+          "relationship_type": "KNOWS",
+          "description": "Stamford knows Sherlock Holmes from the chemical laboratory.",
+          "strength": 6
+        },
+        {
+          "source": "Sherlock Holmes",
+          "target": "Chemical Laboratory",
+          "relationship_type": "WORKS_AT",
+          "description": "Sherlock Holmes works at the chemical laboratory up at the hospital.",
+          "strength": 7
+        },
+        {
+          "source": "John Watson",
+          "target": "Sherlock Holmes",
+          "relationship_type": "INTERESTED_IN",
+          "description": "Watson is interested in sharing rooms with Sherlock Holmes after hearing about him from Stamford.",
+          "strength": 9
+        }
+      ]
+    }
+  },
+  {
+    "chunk_id": 1,
+    "status": "success",
+    "data": {
+      "entities": [
+        {
+          "name": "Young Stamford",
+          "type": "PERSON",
+          "description": "A mutual acquaintance who discusses Sherlock Holmes with John Watson, warning him about Holmes' eccentricities and describing his scientific enthusiasms."
+        },
+        {
+          "name": "Sherlock Holmes",
+          "type": "PERSON",
+          "description": "An eccentric individual with queer ideas, enthusiastic in science, skilled in anatomy and chemistry, with desultory studies and out-of-the-way knowledge, not a systematic medical student."
+        },
+        {
+          "name": "John Watson",
+          "type": "PERSON",
+          "description": "A medical man seeking to share rooms and expenses, curious about Sherlock Holmes, and engaging in conversation with Young Stamford about him."
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Young Stamford",
+          "target": "John Watson",
+          "relationship_type": "ADVISES",
+          "description": "Young Stamford advises John Watson about Sherlock Holmes' eccentric nature.",
+          "strength": 7
+        },
+        {
+          "source": "Young Stamford",
+          "target": "Sherlock Holmes",
+          "relationship_type": "DESCRIBES",
+          "description": "Young Stamford describes Sherlock Holmes' studies and character to John Watson.",
+          "strength": 6
+        },
+        {
+          "source": "John Watson",
+          "target": "Sherlock Holmes",
+          "relationship_type": "INTERESTED_IN",
+          "description": "John Watson shows interest in Sherlock Holmes as a potential partner for sharing rooms.",
+          "strength": 8
+        }
+      ]
+    }
+  }
+]
